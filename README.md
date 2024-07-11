@@ -1,5 +1,5 @@
 
-# WCF Coding Challenge
+# WCNFT Coding Challenge
 
 This project is a web application for managing patient forms with a focus on Neuro Modulation. The project uses PHP, IIS, and SQL Server.
 
