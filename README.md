@@ -39,7 +39,7 @@ git clone https://github.com/Haripriya-chalil/WCNFT-CodingChallenge.git
 
 1. Open SQL Server Management Studio (SSMS).
 2. Connect to your SQL Server instance.
-3. Open the `WCFT-Coding-Challenge/Database/database.sql` file.
+3. Open the `WCNFT-CodingChallenge/Database/database.sql` file.
 4. Execute the script to create the database, tables,stored procedures.
 
 ### 6. Configure Environment Variables
@@ -47,7 +47,7 @@ git clone https://github.com/Haripriya-chalil/WCNFT-CodingChallenge.git
 Create a `.env` file in the root of your project and add the following content:
 
 ```
-BASE_URL=http://localhost/WCF-Coding-Challenge/views
+BASE_URL=http://localhost/WCNFT-CodingChallenge/views
 DB_SERVERNAME= Your Server Name
 DB_DATABASE=Your Database Name
 DB_USERNAME=Your Database Username
@@ -61,7 +61,7 @@ DB_PASSWORD=Your Database Password
 To access the patient form for Neuro Modulation, open any browser and type:
 
 ```
-http://localhost/WCF-Coding-Challenge/views/patient_form.php
+http://localhost/WCNFT-CodingChallenge/views/patient_form.php
 ```
 
 ### Admin Home
@@ -69,7 +69,7 @@ http://localhost/WCF-Coding-Challenge/views/patient_form.php
 To access the admin home page, open any browser and type:
 
 ```
-http://localhost/WCF-Coding-Challenge/views/admin_home.php
+http://localhost/WCNFT-CodingChallenge/views/admin_home.php
 ```
 
 ### Adding Admin User
