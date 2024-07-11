@@ -86,19 +86,19 @@ Replace `'your_password'` with a secure password of your choice.
 To add question to the `question` table, you can use SQL Server Management Studio (SSMS) or any other SQL query tool to insert question  into the `question` table.
 
 ```sql
-INSERT INTO question (id, category, description, max_score) VALUES
-(1, 'Brief Pain Inventory (BPI)', 'How much relief have pain treatments or medications FROM THIS CLINIC provided?', 100),
-(2, 'Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain at its WORST in the past week.', 10),
-(3, 'Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain at its LEAST in the past week.', 10),
-(4, 'Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain on the Average.', 10),
-(5, 'Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain that tells how much pain you have RIGHT NOW.', 10),
-(6, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: General Activity.', 10),
-(7, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Mood.', 10),
-(8, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Walking ability.', 10),
-(9, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Normal work (includes work both outside the home and housework).', 10),
-(10, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Relationships with other people.', 10),
-(11, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Sleep.', 10),
-(12, 'Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Enjoyment of life.', 10);
+INSERT INTO questions ( panel, question_text, max_score) VALUES
+('Brief Pain Inventory (BPI)', 'How much relief have pain treatments or medications FROM THIS CLINIC provided?', 100),
+('Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain at its WORST in the past week.', 10),
+('Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain at its LEAST in the past week.', 10),
+('Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain on the Average.', 10),
+('Brief Pain Inventory (BPI)', 'Please rate your pain based on the number that best describes your pain that tells how much pain you have RIGHT NOW.', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: General Activity.', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Mood.', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Walking ability.', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Normal work (includes work both outside the home and housework).', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Relationships with other people.', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Sleep.', 10),
+('Brief Pain Inventory (BPI)', 'Based on the number that best describes how during the past week pain has INTERFERED with your: Enjoyment of life.', 10);
 ```
 
 
