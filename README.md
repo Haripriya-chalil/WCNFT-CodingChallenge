@@ -32,7 +32,7 @@ Download and install SQL Server 2022 Express from the official Microsoft website
 Clone the project from GitHub:
 
 ```bash
-git clone https://github.com/Haripriya-chalil/WCF_Coding_Challenge.git
+git clone https://github.com/Haripriya-chalil/WCNFT-CodingChallenge.git
 ```
 
 ### 5. Import the Database
